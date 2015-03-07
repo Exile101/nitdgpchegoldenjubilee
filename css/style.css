@@ -310,6 +310,7 @@ hr {
 	
 	background: rgba(0,0,0,0.2) url(../img/bg1.jpg) no-repeat;
   background-size:cover;
+  background-attachment: fixed;
 }
 
 #intro.intro {
