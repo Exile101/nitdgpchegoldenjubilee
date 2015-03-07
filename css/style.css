@@ -164,6 +164,15 @@ a:focus {
     outline: 0;
 }
 
+.dropdown-menu>.active>a
+{
+  color: #fff !important;
+}
+
+.dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+{
+  color: #67b0d1 !important;
+}
 
 /* loader */
 #preloader {
@@ -312,7 +321,38 @@ hr {
   background-size:cover;
   background-attachment: fixed;
 }
+.intro.others
+{
+  background: url(../img/others.jpg);
+  background-attachment: fixed;
+  background-size: 100% auto;
+  height: 40%;
+  padding: 0 !important;
 
+}
+.intro.others2
+{
+  background: url(../img/others2.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  height: 40%;
+  padding: 0 !important;
+
+}
+.intro.others div, .intro.others2 div
+{
+  height: 100%;
+  width: 100%;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.46) 49%, rgba(255,255,255,0.51) 54%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(49%,rgba(255,255,255,0.46)), color-stop(54%,rgba(255,255,255,0.51)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.46) 49%,rgba(255,255,255,0.51) 54%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.46) 49%,rgba(255,255,255,0.51) 54%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.46) 49%,rgba(255,255,255,0.51) 54%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.46) 49%,rgba(255,255,255,0.51) 54%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+}
 #intro.intro {
 	padding:11% 0 0 0;
 }
@@ -365,7 +405,65 @@ hr {
   height: 100px;
   margin: 0.5em;
 }
+/* ===========================
+--- Committee
+============================ */
 
+.commit
+{
+  display: block;
+  text-align: center;
+margin: 1em auto;
+}
+.commit li
+{
+  display: inline-block;
+}
+.coomit h5
+{
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+.commit h5 b
+{
+  font-weight: 800;
+  color: #000;
+}
+.commit li h5 span
+{
+  color: rgb(56, 140, 196);
+  font-size: 1.2em;
+  margin: 
+}
+.span-h
+{
+  color: #388cc4;
+  font-weight: 700;
+}
+.span-h:hover
+{
+  color: #28c3ab;
+}
+
+.feetbale span
+{
+  color: #388cc4;
+  font-weight: 600;
+}
+.feetable th,td
+{
+  padding: 1em;
+  font-size: 1.2em;
+}
+.feetable th
+{
+  background: #388cc4;
+  color: #fff;
+}
+.feetable tr:nth-child(even)
+{
+  background-color: #eee;
+}
 /* ===========================
 --- About
 ============================ */
@@ -373,8 +471,21 @@ hr {
 .boxed-grey {
 	background: #f9f9f9;
 	padding: 20px;
+  border-left: 2px solid rgb(56, 140, 196);
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -o-transition:all 0.2s;
 }
+.boxed-grey-2 {
+  background: #f9f9f9;
+  padding: 20px;
 
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -o-transition:all 0.2s;
+}
 .team h5 {
 	margin-bottom: 10px;
 }
@@ -532,8 +643,27 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social .social-google a:hover{background: #333;}
 .company-social .social-vimeo a:hover{background: #71c6f3;}
 
+/* ===========================
+--- Dates
+============================ */
+.dateslist
+{
+  display: block;
+  text-align: left;
+}
+.dateslist li
+{
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0.5em;
+}
 
-
+.icon-spin-reverse {
+  -moz-animation: spin 2s infinite linear reverse;
+  -o-animation: spin 2s infinite linear reverse;
+  -webkit-animation: spin 2s infinite linear reverse;
+  animation: spin 2s infinite linear reverse;
+}
 /* ===========================
 --- Footer
 ============================ */
