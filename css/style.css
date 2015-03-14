@@ -95,7 +95,7 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 0.8em;
 	letter-spacing: 1px;
     color: #444;
 	text-transform: uppercase;
@@ -470,7 +470,7 @@ margin: 1em auto;
 
 .boxed-grey {
 	background: #f9f9f9;
-	padding: 20px;
+	padding: 2.5em;
   border-left: 2px solid rgb(56, 140, 196);
   transition:all 0.2s;
   -webkit-transition:all 0.2s;
@@ -497,7 +497,7 @@ margin: 1em auto;
 {
   text-align: justify;
   color: #000;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .avatar {
 	margin-bottom: 20px;
